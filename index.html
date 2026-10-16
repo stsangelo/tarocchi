@@ -226,8 +226,9 @@ body{font-size:var(--type-body)}
 }
 
 @media(max-width:700px){
-  .hero-art{height:360px;margin-bottom:0}
-  .hero-art .art-caption{bottom:8px}
+  .hero-art{height:auto;min-height:0;margin-top:20px;margin-bottom:0;display:flex;flex-direction:column;gap:36px}
+  .hero-art .hero-photo-mockup{margin:0 auto}
+  .hero-art .art-caption{display:none}
 }
 
 main[hidden],.mobile-quick-link[hidden]{display:none!important}
